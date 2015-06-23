@@ -6,7 +6,7 @@ import java.util.Date;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- * The message itself
+ * The sensor message ...
  * 
  * @author mbohnen, Jun 23, 2015
  *

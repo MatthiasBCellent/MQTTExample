@@ -5,8 +5,7 @@ import org.eclipse.paho.client.mqttv3.MqttCallback;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 /**
- * 
- * Project: integration_base
+ * The one doing the work upon receiving a message ...
  *
  * @author mbohnen, Jun 5, 2015
  *

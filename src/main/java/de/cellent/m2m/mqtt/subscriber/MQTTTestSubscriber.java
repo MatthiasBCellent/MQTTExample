@@ -7,7 +7,7 @@ import de.cellent.m2m.mqtt.util.MQTTUtil;
 import de.cellent.m2m.mqtt.util.MQTTUtil.ClientType;
 
 /**
- * The 'autonomous' standalone receiver for testing purposes outside the infrastructure.
+ * The 'autonomous' standalone receiver ...
  * 
  * @author mbohnen, Jun 5, 2015
  *
