@@ -10,11 +10,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * 
- * Project: comcommon
- *
- * Copyright (c) by Brockhaus Group
- * www.brockhaus-gruppe.de
+ * Utility which converts objects into JSON et vice versa
  * @author mbohnen, May 16, 2015
  *
  */

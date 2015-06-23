@@ -9,10 +9,6 @@ import de.cellent.m2m.mqtt.util.MQTTUtil.ClientType;
 /**
  * The 'autonomous' standalone receiver for testing purposes outside the infrastructure.
  * 
- * Project: integration_base
- *
- * Copyright (c) by Brockhaus Group
- * www.brockhaus-gruppe.de
  * @author mbohnen, Jun 5, 2015
  *
  */

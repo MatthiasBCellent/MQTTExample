@@ -14,10 +14,7 @@ import de.cellent.m2m.mqtt.util.MQTTUtil.ClientType;
 
 /**
  * Test-driver to fill data into the system
- * Project: integration_base
- *
- * Copyright (c) by Brockhaus Group
- * www.brockhaus-gruppe.de
+ * 
  * @author mbohnen, Jun 4, 2015
  *
  */

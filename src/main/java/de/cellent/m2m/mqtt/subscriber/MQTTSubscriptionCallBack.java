@@ -8,8 +8,6 @@ import org.eclipse.paho.client.mqttv3.MqttTopic;
  * 
  * Project: integration_base
  *
- * Copyright (c) by Brockhaus Group
- * www.brockhaus-gruppe.de
  * @author mbohnen, Jun 5, 2015
  *
  */

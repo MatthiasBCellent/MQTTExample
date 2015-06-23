@@ -8,10 +8,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * The message itself
  * 
- * Project: mqtt-example
- *
- * Copyright (c) by Brockhaus Group www.brockhaus-gruppe.de
- * 
  * @author mbohnen, Jun 23, 2015
  *
  */

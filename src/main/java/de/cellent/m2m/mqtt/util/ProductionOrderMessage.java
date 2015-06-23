@@ -8,10 +8,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 /**
  * Something which might come from a NFC Reader ...
  * 
- * Project: mqtt-example
- *
- * Copyright (c) by Brockhaus Group
- * www.brockhaus-gruppe.de
  * @author mbohnen, Jun 23, 2015
  *
  */

@@ -12,10 +12,6 @@ import org.eclipse.paho.client.mqttv3.MqttException;
  * Some useful thing to get a MQTTClient. 
  * Later on everything will be configured by Spring DI, then it will be a Singleton automatically
  * 
- * Project: integration_common
- *
- * Copyright (c) by Brockhaus Group
- * www.brockhaus-gruppe.de
  * @author mbohnen, Jun 4, 2015
  *
  */
