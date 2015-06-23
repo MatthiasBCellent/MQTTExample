@@ -17,7 +17,7 @@ public class MQTTTestSubscriber {
 	private MqttClient mqttClient;
 
 	public static void main(String... args) {
-		final MQTTTestSubscriber subscriber = new MQTTTestSubscriber();
+		MQTTTestSubscriber subscriber = new MQTTTestSubscriber();
 		subscriber.start();
 	}
 

@@ -13,7 +13,7 @@ import de.cellent.m2m.mqtt.util.ProductionOrderMessage;
 import de.cellent.m2m.mqtt.util.MQTTUtil.ClientType;
 
 /**
- * Test-driver to fill data into the system
+ * Test-driver to push data into the system
  * 
  * @author mbohnen, Jun 4, 2015
  *
@@ -21,11 +21,10 @@ import de.cellent.m2m.mqtt.util.MQTTUtil.ClientType;
 public class MQTTPublisher {
 	
 	private MqttClient client;
-	
-	// you can hierarchically structure further on, i.e. for every sensor
-	private final String SENSOR_TOPIC = "nfc/ABC999";
-	
 	private MqttTopic topic;
+	
+	// you can hierarchically structure further on, i.e. for every nfc reader
+	private String topicName = "nfc/ABC999";
 	
 	public static void main(String[] args) {
 		MQTTPublisher client = new MQTTPublisher();
@@ -56,7 +55,7 @@ public class MQTTPublisher {
 		try {
 			client = new MQTTUtil().getClient(ClientType.TYPE_PUBLISHER);
 			client.connect();
-			topic = client.getTopic(SENSOR_TOPIC);
+			topic = client.getTopic(topicName);
 		} catch (MqttException e) {
 			e.printStackTrace();
 		}

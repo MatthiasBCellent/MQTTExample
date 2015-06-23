@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * Utility which converts objects into JSON et vice versa
+ * 
  * @author mbohnen, May 16, 2015
  *
  */
